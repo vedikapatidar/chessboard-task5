@@ -1,0 +1,35 @@
+.chessboard {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+  }
+  
+  .row {
+    display: flex;
+    flex: 1;
+  }
+  
+  .square {
+    flex: 1;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .square.white {
+    background-color: white;
+  }
+  
+  .square.black {
+    background-color: black;
+  }
+  
+  .square.yellow {
+    background-color: yellow;
+  }
+  
+  .square.red {
+    background-color: red;
+  }
+  
